@@ -1,0 +1,19 @@
+/* header */
+/* navbar */
+
+.navbar {
+	background-color: transparent;
+	padding: 45px 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 0px 30px;
+}
+
+/* jumbostron */
+
+#jumbostron {
+	background: #0ecff0 url(../images/background.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
