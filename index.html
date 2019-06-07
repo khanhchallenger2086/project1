@@ -6,22 +6,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
 	<div id="page-content">
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 	 				 <h1><a class="navbar-brand" href="#"><img src="images/Logo.png"></a></h1>
 					 <ul class="navbar-nav ml-auto">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#">Home</a>
+				      <li class="nav-item">
+				        <a class="nav-link" href="">Home</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">About</a>
+				        <a class="nav-link" href="#intro_viblo">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#stable">Stable</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#everything">Everything</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="#">App</a>
@@ -32,21 +38,21 @@
 				    </ul>
 				</div>
  			</nav>
-		</header>
-		<div id="jumbostron">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Choose a better way to represent your app</h1>
-						<p>Vestibulum ac diam sit amet quam vehicula elementum.</p>
-						<ul>
-							<li><a href="#">Download Free</a></li>
-							<li><a href="#">Contact Us</a></li>
-						</ul>
+			<div id="jumbostron">
+				<div class="container text-center">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Choose a better way to represent your app</h1>
+							<p>Vestibulum ac diam sit amet quam vehicula elementum.</p>
+							<ul id="action">
+								<li><a href="#">Download Free</a></li>
+								<li><a href="#">Contact Us</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
 
 		<section>
 			<div id="intro_viblo">
@@ -57,25 +63,25 @@
 						</div>
 
 						<div class="col-md-8">
-							<div>
+							<div class="intro_box">
 								<img src="images/shop.png">
 								<h3>First 7 Days Free</h3>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diamdo.</p>
 							</div>
 
-							<div>
+							<div class="intro_box">
 								<img src="images/message.png">
 								<h3>First 7 Days Free</h3>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diamdo.</p>
 							</div>	
 
-							<div>
+							<div class="intro_box">
 								<img src="images/flat.png">
 								<h3>First 7 Days Free</h3>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diamdo.</p>
 							</div>
 
-							<div>
+							<div class="intro_box">
 								<img src="images/phone.png">
 								<h3>First 7 Days Free</h3>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diamdo.</p>
@@ -88,30 +94,38 @@
 			<div id="stable">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-5">
+						<div class="col-md-5 text-right">
 							<h2>Stable And Ready</h2>
-							<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam.</p>
+							<p class="stable_txt">Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Curabitur aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam.</p>
 							<button>Download Free</button>
 						</div>
 
 						<div class="col-md-6 offset-md-1">
-							<div>
-								<h3>Free of Use</h3>
+							<div class="stable_box active">
+								<div>
+									<h3>Math With Love</h3>
+								</div>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diam.</p>
 							</div>
 
-							<div>
-								<h3>Free of Use</h3>
+							<div class="stable_box">
+								<div>
+									<h3>Free of Use</h3>
+								</div>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diam.</p>
 							</div>
 
-							<div>
-								<h3>Free of Use</h3>
+							<div class="stable_box">
+								<div>
+									<h3>Fully Support Available</h3>
+								</div>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diam.</p>
 							</div>
 
-							<div>
-								<h3>Free of Use</h3>
+							<div class="stable_box">
+								<div>
+									<h3>Flat and Modern UI & UX</h3>
+								</div>
 								<p>Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt. Vestibulum ac diam.</p>
 							</div>
 						</div>
@@ -128,7 +142,7 @@
 
 						<div class="col-md-5 offset-md-1">
 							<h2>Everything you need</h2>
-							<ul>
+							<ul class="right">
 								<li>Android</li>
 								<li>iPhone</li>
 							</ul>
@@ -218,9 +232,10 @@
 					</div>
 				</div>
 			</div>
+		</section>
 
-			<div id="footer-down">
-				<div class="container">
+		<footer>
+			<div class="container">
 					<div class="row">
 						<div class="col-md-3">
 							<p>&copy; - Appo,All Right Reserved</p>
@@ -236,10 +251,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<footer></footer>
+		</footer>
 	</div>
 
 	<script src="js/library-jquery-3.4.0.min.js"></script>
