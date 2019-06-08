@@ -10,3 +10,23 @@ p {
 	font-size: 15px;
 	color: white;
 }
+
+/* scroll top */
+
+#scroll_top {
+	position: fixed;
+	height: 60px;
+	width: 60px;
+	background-color: #33d2fd;
+	border-radius: 50%;
+	line-height: 60px;
+	text-align: center;
+	right: 20px;
+	bottom: 20px;
+	border: none;
+	display: none;	
+}
+
+#scroll_top:focus {
+	outline: none;
+}

@@ -249,3 +249,133 @@ header {
 	color: #6a6d89;
 	font-size: 14px;
 }
+
+/* available */
+
+#available {
+	padding: 150px 0px;
+	background: url(../images/background.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+
+#available h2 {
+	color: #233148;
+	font-size: 30px;
+}
+
+#available p {
+	color: white;
+	margin: 30px 0px;
+	font-size: 14px;
+}
+
+#available [class*="col-"] {
+	align-self: center;
+}
+
+#available .left {
+	text-align: right;
+	margin-right: 20px;
+}
+
+#available ul li {
+	display: inline-block;
+}
+
+#available ul li:first-child {
+	margin-right: 30px;
+}
+
+#available #get_the_app {
+	position: absolute;
+	top: calc(100% - 25px);
+	left: calc(50% - 125px);
+	height: 50px;
+	width: 250px;
+	text-align: center;
+	display: inline-block;
+	line-height: 50px;
+	border-radius: 4px;
+	background-image: linear-gradient(to right, #d6c8ca, blue);
+	color: white;
+}
+
+#available #get_the_app:hover {
+	background-image: linear-gradient(to right, #de4963, #07077b);
+}
+
+/* footer-up */
+
+#footer_up {
+	padding: 150px 0px 80px 0px;
+}
+
+#footer_up .footer_box {
+	text-align: center;
+}
+
+#footer_up .footer_box h3 {
+	color: black;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+#footer_up .footer_box ul li a {
+	font-size: 14px;
+	color: #846868;
+	padding: 5px 0px;
+	display: block;
+}
+
+#footer_up .footer_box ul li a:hover {
+	color: black;
+}
+
+/* get in touch */
+
+#get_in_touch {
+	text-align: center;
+}
+
+#get_in_touch p {
+	font-size: 14px; 
+	color: #6a6d89;
+	margin:20px 0px 30px 0px;
+}
+
+.form-control {
+	margin-right: 20px;
+	border-radius: 4px!important;
+}
+
+/* footer */
+
+footer {
+	padding: 30px 0px;
+	background-color: black;
+	margin-top: 80px;
+}
+
+footer p {
+	margin: 0px;
+}
+
+footer ul {
+	margin: 0px; 
+	text-align: right;
+}
+
+footer ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+footer ul li:last-child {
+	margin-right: 0px;
+}
+
+footer ul li a img:hover {
+	transform: scale(1.5);
+	transition: 1s;
+}
