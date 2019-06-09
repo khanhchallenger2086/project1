@@ -6,7 +6,7 @@ $(document).ready(function(){
 	box.click(function(){
 		$("#stable .stable_box").removeClass('active');
 		$("#stable .stable_box p").css("display", "none");
-		$(this).find('p').css("display", "block");
+		$(this).children('p').css("display", "block");
 		$(this).addClass('active');
 
 	});
