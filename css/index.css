@@ -432,7 +432,7 @@ footer ul li a img:hover {
 
 	/* everything */
 	#everything {
-		padding: 0px;
+		padding: 50px 0px 0px 0px;
 	}
 
 	#everything img {
@@ -540,7 +540,6 @@ footer ul li a img:hover {
 
 	/* everything */ 
 	#everything {
-		padding: 0px;
 		margin-top: 50px;
 	}
 
