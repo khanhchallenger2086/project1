@@ -29,3 +29,19 @@ $(document).ready(function(){
 		$("html, body").animate({scrollTop: 0}, 100);
 	})
 });
+
+//click scroll of navbar 
+
+$(document).ready(function(){
+	var navLinks = $(".navbar .nav-link");
+	console.log(navLinks);
+
+	navLinks.click(function(){
+			for(i = 0; i < navLinks.length; i++) {
+				var id = $(this).attr("data-id");
+			}
+
+			$("html, body").animate({scrollTop: $("#" + id).offset().top});
+	})
+
+})
